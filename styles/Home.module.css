@@ -1,3 +1,11 @@
+#articleBox{
+  width: 100%;
+  height: 25rem;
+  border: solid 1px #000000;
+  border-radius: 1rem;
+  margin: 3rem 0 0 0;
+}
+
 .container {
   padding: 3rem;
 }
@@ -19,7 +27,6 @@
 
 .mainFeed{
   width: 80%;
-  height: 100rem;
   margin: 0 0 0 20rem;
   background-color: aqua;
 }
@@ -83,4 +90,10 @@
   border: solid 1px #000000;
   border-radius: 1rem;
   margin: 0.5rem;
+}
+
+.topPosts{
+  width: 97%;
+  margin: 10rem 0 0 0;
+  margin: 5rem 1rem 1rem 1rem;
 }
