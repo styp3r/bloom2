@@ -21,7 +21,7 @@
   width: 80%;
   height: 100rem;
   margin: 0 0 0 20rem;
-  background-color: bisque;
+  background-color: aqua;
 }
 
 .footer{
@@ -33,4 +33,54 @@
 .categoryItem{
   list-style: none;
   margin: 1rem;
+}
+
+.hero{
+  width: 100%;
+  height: 26rem;
+  display: flex;
+  padding: 0 0 1.5rem 0;
+}
+
+.heroCarousel{
+  width: 75%;
+  height: 100%;
+  display: flex;
+}
+
+.trendingContainer{
+  width: 25%;
+  height: 98%;
+  border: solid 1px #000000;
+  border-radius: 1rem;
+  margin: 1rem 1rem 1rem 2rem;
+}
+
+.heroSub1{
+  width: 50%;
+  height: 97%;
+  border: solid 1px #000000;
+  border-radius: 1rem;
+  margin: 1.25rem 0 1.25rem 1.25rem;
+}
+
+.heroSub2{
+  width: 50%;
+  height: 95%;
+  display: flex;
+  margin: 0.5rem;
+}
+
+.heroSub2Container1, .heroSub2Container2{
+  width: 50%;
+  height: 100%;
+  margin: 0.25rem;
+}
+
+.heroBlock1, .heroBlock2, .heroBlock3, .heroBlock4{
+  width: 100%;
+  height: 50%;
+  border: solid 1px #000000;
+  border-radius: 1rem;
+  margin: 0.5rem;
 }
