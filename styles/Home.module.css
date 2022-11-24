@@ -6,6 +6,16 @@
   margin: 3rem 0 0 0;
 }
 
+#formUpload{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem 5rem 5rem 5rem;
+}
+
 .container {
   padding: 3rem;
 }
@@ -95,4 +105,55 @@
   width: 97%;
   margin: 10rem 0 0 0;
   margin: 5rem 1rem 1rem 1rem;
+}
+
+.uploadTitle{
+  width: 80%;
+  height: 3rem;
+  background-color: #f4f4f4;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  color: #000000;
+  padding: 0 1rem 0 1rem;
+}
+
+.uploadTextArea{
+  width: 80%;
+  height: 30rem;
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  color: #000000;
+  padding: 0 1rem 0 1rem;
+  resize: none;
+  margin: 2rem 0 0 0;
+}
+
+.uploadTextArea:focus{
+  outline: none;
+}
+
+.articleWritingTools{
+  width: 40%;
+  height: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.publishBtn{
+  position: absolute;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  top: 3rem;
+  right: 10rem;
+  border: none;
+  background-color: #000000;
+}
+
+.publishBtn:hover{
+  cursor: pointer;
 }

@@ -10,7 +10,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>fublot.</title>
-        <meta name="description" content="A Daily Dump Of Articles On Technology." />
+        <meta name="description" content="A Daily Documenting of Things Around The World" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
